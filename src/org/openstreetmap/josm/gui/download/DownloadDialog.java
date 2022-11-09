@@ -98,6 +98,7 @@ public class DownloadDialog extends JDialog {
     private static final List<DownloadSource<?>> downloadSources = new ArrayList<>();
     static {
         // add default download sources
+        addDownloadSource(new OrbisPBFDownloadSource());
         addDownloadSource(new OSMDownloadSource());
         addDownloadSource(new OverpassDownloadSource());
     }

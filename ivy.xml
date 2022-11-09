@@ -33,6 +33,7 @@
         <dependency conf="api->default" org="ch.poole" name="OpeningHoursParser" rev="0.27.0"/>
         <dependency conf="api->default" org="oauth.signpost" name="signpost-core" rev="2.1.1"/>
         <dependency conf="api->default" org="org.webjars.npm" name="tag2link" rev="2021.3.21"/>
+        <dependency conf="api->default" org="com.tomtom.wth" name="hackathon-pbf-indexing-reader" rev="0.0.1-RC2" />
         <!-- sources->sources -->
         <dependency conf="sources->sources" org="org.openstreetmap.jmapviewer" name="jmapviewer" rev="2.16"/>
         <dependency conf="sources->sources" org="javax.json" name="javax.json-api" rev="1.1.4"/>
